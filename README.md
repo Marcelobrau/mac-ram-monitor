@@ -5,6 +5,15 @@ Script simples em shell para descobrir **qual processo está fazendo a RAM subir
 A cada intervalo ele registra os 8 processos que mais usam memória, as páginas livres e os *pageouts*
 (quando o macOS começa a jogar dados da RAM para o disco).
 
+## Download
+
+Baixe o `ram-monitor.sh` na [última release](https://github.com/Marcelobrau/mac-ram-monitor/releases/latest) ou clone o repo.
+Se baixou o arquivo solto, dê permissão de execução antes de rodar:
+
+```sh
+chmod +x ram-monitor.sh
+```
+
 ## Uso
 
 ```sh
